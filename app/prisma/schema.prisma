@@ -1,0 +1,14 @@
+// Cosmos Solutions — Prisma schema
+// Stub schema for the platform bootstrap. Add models here as the product lands.
+// See: https://www.prisma.io/docs
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Add models in follow-up issues. None yet — the platform boots without a DB.

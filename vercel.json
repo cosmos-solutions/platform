@@ -4,6 +4,7 @@
   "devCommand": "npm run dev",
   "installCommand": "npm ci",
   "framework": "nextjs",
+  "outputDirectory": "app/.next",
   "regions": ["iad1"],
   "github": {
     "silent": true

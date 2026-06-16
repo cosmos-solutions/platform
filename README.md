@@ -2,6 +2,8 @@
 
 > The platform that product features land on. Bootstrap repo for [COS-2](/COS/issues/COS-2).
 
+**Production:** https://cosmos-solutions-platform.vercel.app
+
 A new engineer should reach a running app locally in **under 30 minutes** from a clean clone. The instructions below are the path. If any step takes longer, fix the doc.
 
 ## What's in here
@@ -95,6 +97,8 @@ All three must pass before a PR is ready for review. CI runs the same three on e
 | Format code | `npm run format` |
 
 ## Set up the GitHub remote and deploy target
+
+> **Done (COS-5).** The remote, CI, and Vercel deploy target are live. Skip to "Confirm CI is green" if cloning fresh.
 
 This repo starts on the local filesystem. To turn it into a real team repo:
 

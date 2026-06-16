@@ -50,3 +50,4 @@ app/prisma/generated/
 
 # Paperclip local state
 .paperclip-local/
+.vercel
